@@ -33,7 +33,7 @@ Holder.BorderSizePixel = 0
 Holder.Position = UDim2.new(0.300882638, 0, 0.222967997, 0)
 Holder.Size = UDim2.new(0, 325, 0, 229)
 Holder.Visible = false
-Holder.Active = true 
+Holder.Visible = true 
 Holder.Draggable = true 
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))}
@@ -155,7 +155,7 @@ UICorner_7.Parent = Open
 
 -- Scripts:
 
-local function FEGJWTK_fake_script() -- Tper.LocalScript 
+local function BYTV_fake_script() -- Tper.LocalScript 
 	local script = Instance.new('LocalScript', Tper)
 
 	local button = script.Parent
@@ -182,8 +182,8 @@ local function FEGJWTK_fake_script() -- Tper.LocalScript
 	button.MouseButton1Click:Connect(teleportPlayer)
 	
 end
-coroutine.wrap(FEGJWTK_fake_script)()
-local function JGQDSHN_fake_script() -- Rejoiner.LocalScript 
+coroutine.wrap(BYTV_fake_script)()
+local function KTQTNU_fake_script() -- Rejoiner.LocalScript 
 	local script = Instance.new('LocalScript', Rejoiner)
 
 	-- Get reference to the button
@@ -207,8 +207,8 @@ local function JGQDSHN_fake_script() -- Rejoiner.LocalScript
 	button.MouseButton1Click:Connect(rejoinPlayer)
 	
 end
-coroutine.wrap(JGQDSHN_fake_script)()
-local function PGULR_fake_script() -- Credits.LocalScript 
+coroutine.wrap(KTQTNU_fake_script)()
+local function FYXDZT_fake_script() -- Credits.LocalScript 
 	local script = Instance.new('LocalScript', Credits)
 
 	local frame = script.Parent
@@ -236,8 +236,8 @@ local function PGULR_fake_script() -- Credits.LocalScript
 	
 	
 end
-coroutine.wrap(PGULR_fake_script)()
-local function KTEGQP_fake_script() -- Exit.LocalScript 
+coroutine.wrap(FYXDZT_fake_script)()
+local function VJKZQMD_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	-- Get references to the button and its parent frame
@@ -253,8 +253,8 @@ local function KTEGQP_fake_script() -- Exit.LocalScript
 	button.MouseButton1Click:Connect(closeFrame)
 	
 end
-coroutine.wrap(KTEGQP_fake_script)()
-local function FFUO_fake_script() -- Holder.LocalScript 
+coroutine.wrap(VJKZQMD_fake_script)()
+local function DAANY_fake_script() -- Holder.LocalScript 
 	local script = Instance.new('LocalScript', Holder)
 
 	-- Reference to the frame
@@ -275,8 +275,8 @@ local function FFUO_fake_script() -- Holder.LocalScript
 	showNotification()
 	
 end
-coroutine.wrap(FFUO_fake_script)()
-local function ZAJF_fake_script() -- Open.LocalScript 
+coroutine.wrap(DAANY_fake_script)()
+local function TKQSWC_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	-- Get references to the button, ScreenGui, and the frame it needs to close
@@ -299,4 +299,4 @@ local function ZAJF_fake_script() -- Open.LocalScript
 	button.MouseButton1Click:Connect(closeFrame)
 	
 end
-coroutine.wrap(ZAJF_fake_script)()
+coroutine.wrap(TKQSWC_fake_script)()
