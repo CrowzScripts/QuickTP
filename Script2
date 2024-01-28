@@ -1,0 +1,302 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Holder = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local Tper = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Rejoiner = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Exit = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Open = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Holder.Name = "Holder"
+Holder.Parent = ScreenGui
+Holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Holder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Holder.BorderSizePixel = 0
+Holder.Position = UDim2.new(0.300882638, 0, 0.222967997, 0)
+Holder.Size = UDim2.new(0, 325, 0, 229)
+Holder.Visible = false
+Holder.Visible = true 
+Holder.Draggable = true 
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))}
+UIGradient.Parent = Holder
+
+UICorner.Parent = Holder
+
+TextBox.Parent = Holder
+TextBox.BackgroundColor3 = Color3.fromRGB(130, 30, 12)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.211026505, 0, 0.219178095, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.Text = "USERNAME"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 28.000
+TextBox.TextStrokeColor3 = Color3.fromRGB(182, 182, 182)
+TextBox.TextStrokeTransparency = 0.000
+
+UICorner_2.Parent = TextBox
+
+Tper.Name = "Tper"
+Tper.Parent = Holder
+Tper.BackgroundColor3 = Color3.fromRGB(149, 0, 2)
+Tper.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tper.BorderSizePixel = 0
+Tper.Position = UDim2.new(0.254243612, 0, 0.502794862, 0)
+Tper.Size = UDim2.new(0, 164, 0, 30)
+Tper.Font = Enum.Font.SourceSansBold
+Tper.Text = "Teleport"
+Tper.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tper.TextSize = 24.000
+Tper.TextStrokeColor3 = Color3.fromRGB(154, 154, 154)
+Tper.TextStrokeTransparency = 0.000
+
+UICorner_3.Parent = Tper
+
+TextLabel.Parent = Holder
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.211026505, 0, -0.0301724132, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 38)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Quick Teleport"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 36.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(116, 116, 116)
+TextLabel.TextStrokeTransparency = 0.000
+
+Rejoiner.Name = "Rejoiner"
+Rejoiner.Parent = Holder
+Rejoiner.BackgroundColor3 = Color3.fromRGB(149, 0, 2)
+Rejoiner.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rejoiner.BorderSizePixel = 0
+Rejoiner.Position = UDim2.new(0.254243612, 0, 0.701070726, 0)
+Rejoiner.Size = UDim2.new(0, 164, 0, 30)
+Rejoiner.Font = Enum.Font.SourceSansBold
+Rejoiner.Text = "Rejoin"
+Rejoiner.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rejoiner.TextSize = 24.000
+Rejoiner.TextStrokeColor3 = Color3.fromRGB(154, 154, 154)
+Rejoiner.TextStrokeTransparency = 0.000
+
+UICorner_4.Parent = Rejoiner
+
+Credits.Name = "Credits"
+Credits.Parent = Holder
+Credits.BackgroundColor3 = Color3.fromRGB(149, 0, 2)
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.0269334055, 0, 0.865240216, 0)
+Credits.Size = UDim2.new(0, 90, 0, 30)
+Credits.Font = Enum.Font.SourceSansBold
+Credits.Text = "CREDITS"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 24.000
+Credits.TextStrokeColor3 = Color3.fromRGB(154, 154, 154)
+Credits.TextStrokeTransparency = 0.000
+
+UICorner_5.Parent = Credits
+
+Exit.Name = "Exit"
+Exit.Parent = Holder
+Exit.BackgroundColor3 = Color3.fromRGB(149, 0, 2)
+Exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.700779557, 0, 0.865240216, 0)
+Exit.Size = UDim2.new(0, 90, 0, 30)
+Exit.Font = Enum.Font.SourceSansBold
+Exit.Text = "EXIT"
+Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit.TextSize = 24.000
+Exit.TextStrokeColor3 = Color3.fromRGB(154, 154, 154)
+Exit.TextStrokeTransparency = 0.000
+
+UICorner_6.Parent = Exit
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.Active = false
+Open.BackgroundColor3 = Color3.fromRGB(154, 28, 30)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0, 23, 0, 179)
+Open.Size = UDim2.new(0, 66, 0, 28)
+Open.ZIndex = 10
+Open.AutoButtonColor = false
+Open.Font = Enum.Font.ArialBold
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 20.000
+Open.TextStrokeColor3 = Color3.fromRGB(134, 134, 134)
+Open.TextStrokeTransparency = 0.000
+Open.TextWrapped = true
+
+UICorner_7.Parent = Open
+
+-- Scripts:
+
+local function BYTV_fake_script() -- Tper.LocalScript 
+	local script = Instance.new('LocalScript', Tper)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.TextBox
+	
+	local function teleportPlayer()
+		local partialName = textbox.Text
+		local playerToTeleport = nil
+	
+		for _, player in pairs(game.Players:GetPlayers()) do
+			if string.find(player.Name:lower(), partialName:lower()) or string.find(player.DisplayName:lower(), partialName:lower()) then
+				playerToTeleport = player
+				break
+			end
+		end
+	
+		if playerToTeleport then
+			game.Players.LocalPlayer.Character:MoveTo(playerToTeleport.Character.HumanoidRootPart.Position)
+		else
+			warn("Player not found!")
+		end
+	end
+	
+	button.MouseButton1Click:Connect(teleportPlayer)
+	
+end
+coroutine.wrap(BYTV_fake_script)()
+local function KTQTNU_fake_script() -- Rejoiner.LocalScript 
+	local script = Instance.new('LocalScript', Rejoiner)
+
+	-- Get reference to the button
+	local button = script.Parent
+	
+	-- Function to rejoin the player to the game
+	local function rejoinPlayer()
+		local player = game.Players.LocalPlayer
+		if player then
+			local teleportService = game:GetService("TeleportService")
+			local placeId = game.PlaceId
+			local jobId = game.JobId
+	
+			teleportService:TeleportToPlaceInstance(placeId, jobId)
+		else
+			warn("LocalPlayer not found!")
+		end
+	end
+	
+	-- Connect the function to the button's Click event
+	button.MouseButton1Click:Connect(rejoinPlayer)
+	
+end
+coroutine.wrap(KTQTNU_fake_script)()
+local function FYXDZT_fake_script() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript', Credits)
+
+	local frame = script.Parent
+	local button = script.Parent -- Replace with the actual name of your button
+	local player = game.Players.LocalPlayer
+	
+	-- Function to show the notification
+	local function showNotification()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Credits!";
+			Text = "Made By CrowzScripts, ";
+			Icon = "rbxthumb://type=AvatarHeadShot&id=" .. player.UserId .. "&w=180&h=180 true";
+			Duration = 5
+		})
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Discord!";
+			Text = "crowv., ";
+			Icon = "rbxthumb://type=AvatarHeadShot&id=" .. player.UserId .. "&w=180&h=180 true";
+			Duration = 5
+		})
+	end
+	
+	-- Connect the function to the button's Click event
+	button.MouseButton1Click:Connect(showNotification)
+	
+	
+end
+coroutine.wrap(FYXDZT_fake_script)()
+local function VJKZQMD_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	-- Get references to the button and its parent frame
+	local button = script.Parent
+	local frame = button.Parent
+	
+	-- Function to close the frame
+	local function closeFrame()
+		frame.Visible = false
+	end
+	
+	-- Connect the function to the button's Click event
+	button.MouseButton1Click:Connect(closeFrame)
+	
+end
+coroutine.wrap(VJKZQMD_fake_script)()
+local function DAANY_fake_script() -- Holder.LocalScript 
+	local script = Instance.new('LocalScript', Holder)
+
+	-- Reference to the frame
+	local frame = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	-- Function to show the notification
+	local function showNotification()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Welcome!";
+			Text = "Welcome, " .. player.DisplayName;
+			Icon = "rbxthumb://type=AvatarHeadShot&id=" .. player.UserId .. "&w=180&h=180 true";
+			Duration = 5
+		})
+	end
+	
+	-- Show the notification when the frame loads
+	showNotification()
+	
+end
+coroutine.wrap(DAANY_fake_script)()
+local function TKQSWC_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	-- Get references to the button, ScreenGui, and the frame it needs to close
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local playerGui = player:WaitForChild("PlayerGui")
+	
+	-- Replace "ScreenGuiName" with the name of your ScreenGui
+	local screenGui = playerGui:WaitForChild("ScreenGui")
+	
+	-- Replace "FrameName" with the name of your frame
+	local frame = screenGui:WaitForChild("Holder")
+	
+	-- Function to close the frame
+	local function closeFrame()
+		frame.Visible = true
+	end
+	
+	-- Connect the function to the button's Click event
+	button.MouseButton1Click:Connect(closeFrame)
+	
+end
+coroutine.wrap(TKQSWC_fake_script)()
